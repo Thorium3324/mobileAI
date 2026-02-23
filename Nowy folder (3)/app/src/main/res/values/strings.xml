@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocalAI Companion</string>
+    
+    <!-- Chat -->
+    <string name="hint_type_message">Type your message…</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_clear_chat">Clear Chat</string>
+    <string name="btn_stop_generating">Stop</string>
+    <string name="btn_voice_output">Voice Output</string>
+    <string name="btn_stop_voice">Stop Voice</string>
+    
+    <!-- Settings -->
+    <string name="title_settings">Settings</string>
+    <string name="title_model">Model Settings</string>
+    <string name="title_tts">TTS Settings</string>
+    <string name="title_appearance">Appearance</string>
+    <string name="title_about">About</string>
+    
+    <!-- Model -->
+    <string name="select_model">Select Model</string>
+    <string name="current_model">Current Model</string>
+    <string name="no_model_loaded">No model loaded</string>
+    <string name="load_model">Load Model</string>
+    <string name="unload_model">Unload Model</string>
+    <string name="model_loading">Loading model…</string>
+    <string name="model_loaded">Model loaded successfully</string>
+    <string name="model_unloaded">Model unloaded</string>
+    <string name="model_load_error">Failed to load model</string>
+    
+    <!-- Parameters -->
+    <string name="temperature">Temperature</string>
+    <string name="top_p">Top P</string>
+    <string name="top_k">Top K</string>
+    <string name="context_size">Context Size</string>
+    <string name="max_tokens">Max Tokens</string>
+    <string name="repeat_penalty">Repeat Penalty</string>
+    
+    <!-- TTS -->
+    <string name="tts_voice">Voice</string>
+    <string name="tts_pitch">Pitch</string>
+    <string name="tts_speed">Speed</string>
+    <string name="tts_volume">Volume</string>
+    <string name="tts_enabled">Enable Voice Output</string>
+    <string name="tts_streaming">Streaming Audio</string>
+    
+    <!-- Memory -->
+    <string name="chat_memory">Chat Memory</string>
+    <string name="clear_memory">Clear Memory</string>
+    <string name="memory_cleared">Chat memory cleared</string>
+    <string name="system_prompt">System Prompt</string>
+    
+    <!-- Performance -->
+    <string name="low_ram_mode">Low RAM Mode</string>
+    <string name="gpu_inference">GPU Inference (Vulkan)</string>
+    <string name="threads">CPU Threads</string>
+    <string name="auto_cache_clear">Auto Clear Cache</string>
+    
+    <!-- Status -->
+    <string name="status_ready">Ready</string>
+    <string name="status_generating">Generating…</string>
+    <string name="status_error">Error</string>
+    <string name="status_loading">Loading…</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_clear_chat_title">Clear Chat</string>
+    <string name="dialog_clear_chat_message">Are you sure you want to clear all chat history?</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+    
+    <!-- Errors -->
+    <string name="error_no_model">Please load a model first</string>
+    <string name="error_model_too_large">Model file is too large for available memory</string>
+    <string name="error_inference">Inference error occurred</string>
+    <string name="error_tts">TTS error occurred</string>
+    
+    <!-- About -->
+    <string name="version">Version</string>
+    <string name="description">A fully offline AI assistant running locally on your device.</string>
+    <string name="privacy_notice">All data stays on your device. No internet connection required.</string>
+    
+    <!-- Content descriptions -->
+    <string name="cd_send_message">Send message</string>
+    <string name="cd_voice_output">Toggle voice output</string>
+    <string name="cd_settings">Open settings</string>
+    <string name="cd_model_selector">Select AI model</string>
+    <string name="cd_clear_chat">Clear chat history</string>
+    <string name="cd_loading_indicator">Loading</string>
+</resources>
